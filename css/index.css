@@ -129,7 +129,7 @@ footer{
 
 /*---------------Contacto-------------------------*/
 
-form{
+#formu{
     width: 50%;
     background-color: rgb(92, 38, 2);
     text-align: center;
@@ -205,6 +205,18 @@ form label{
         color: bisque;
     }
 
+    .dropdown-menu a{
+        color: brown;
+    }
+
+    .dropdown  i{
+        color:bisque;
+    }
+
+    #drop{
+        display: block;
+    }
+
     label{
         font-size: 35px;
     }
@@ -213,19 +225,19 @@ form label{
         font-size: 25px;
 
     }
-    h2{
-        font-size: 15px;
+    .sub{
+        font-size: 13px;
     }
     p{
-        font-size: 20px;
+        font-size: 15px;
     }
     p::first-letter{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .producto{
         width: 30%;
-        height: 480px;
+        height: 400px;
     }
     .producto img{
         width: 100%;
@@ -244,8 +256,12 @@ form label{
         width: 100%;
     }
 
-    form{
+    #formu{
         width: 100%;
+        margin: 0 auto;
+    }
+    #formu input{
+        margin-left: 100px;
     }
     form label{
         font-size: 12px;
@@ -285,6 +301,10 @@ h1{
     
 }
 
+.carousel-inner img{
+    height: 300px;
+}
+
 @keyframes titulo{
     from{
         color: bisque;
@@ -296,4 +316,11 @@ h1{
         transform: translateX(0px);
         
     }
+}
+.dropdown{
+    display: none;
+}
+
+.carousel-inner img{
+    height: 400px;
 }
