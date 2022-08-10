@@ -1,0 +1,12 @@
+@keyframes titulo{
+    from{
+        color: bisque;
+        transform: translateX(-100px);
+        
+    }
+    to{
+        color: darkred;
+        transform: translateX(0px);
+        
+    }
+}

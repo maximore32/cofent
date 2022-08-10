@@ -1,0 +1,109 @@
+main{
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: lightgoldenrodyellow;
+    h1{
+        font-size: 45px;
+        color: darkred;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+        animation: titulo 5s ;    
+        animation-fill-mode: forwards;        
+    }
+    section{
+        margin-bottom: 10px;
+
+        h2{
+            color: brown;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .imx{
+            width: 50%;
+            height: 250px;
+            padding: 2px;
+        }
+
+
+        p{
+            font-family: 'The Nautigal', cursive;
+            word-spacing: 2px;
+            font-size: 30px;
+                       
+        }
+        p::first-letter{
+            font-size: 55px;
+            color: aqua;
+            border: double red;
+            background-color: darkred;
+            letter-spacing: 8px;
+        }
+    }
+    .carousel-inner img{
+        height: 400px;
+    }
+// -----------------CONTACTO MAIN-------------
+    #formu{
+        width: 50%;
+        background-color: rgb(92, 38, 2);
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 5px;
+
+        label{
+            font-size: 22px;
+            color: beige;
+        }
+
+        input{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+        
+    }
+//-------------------PRODUCTO MAIN---------------//
+.producto{
+    width: 32%;
+    float: left;
+    margin-left: 10px;
+
+
+}
+
+//-----------Fotos-------------------------------//
+.gridcont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow: 50px;
+    gap: 25px;
+
+    section{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .imf-1{
+        grid-column: 1/4;
+        width: 50%;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+}
+
+//---------------------UBICACION------------------------//
+
+.map{
+    border-radius: 100%;
+}
+
+
+}
+
