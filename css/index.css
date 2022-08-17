@@ -5,6 +5,11 @@ body {
   margin: 0;
   padding: 0; }
 
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 footer {
   width: 100%;
   text-align: center;
@@ -14,9 +19,7 @@ footer {
   font-size: 20px;
   background-color: sienna; }
   footer div {
-    width: 100%;
-    justify-content: space-around;
-    display: flex; }
+    width: 100%; }
     footer div .imagen_footer {
       width: 60px;
       height: 50px;
@@ -51,6 +54,8 @@ header {
         header nav ul li a {
           text-decoration: none;
           color: lightcyan; }
+        header nav ul li a:hover {
+          color: aqua; }
   header .dropdown {
     display: none; }
 
@@ -76,8 +81,9 @@ main {
       height: 250px;
       padding: 2px; }
     main section p {
-      font-family: 'The Nautigal', cursive;
       word-spacing: 2px;
+      color: brown;
+      font-family: "The Nautigal";
       font-size: 30px; }
     main section p::first-letter {
       font-size: 55px;
@@ -101,6 +107,10 @@ main {
       display: block;
       margin: 0 auto;
       margin-bottom: 5px; }
+    main #formu .boton {
+      background-color: darkred;
+      color: cyan;
+      border: 2px solid red; }
   main .producto {
     width: 32%;
     float: left;
@@ -126,68 +136,70 @@ main {
 @media (max-width: 858px) {
   header div {
     width: 40%; }
-  nav {
+    header div label {
+      font-size: 35px; }
+  header nav {
     width: 40%;
     display: flex;
     justify-content: end; }
-  nav ul {
-    display: none; }
-  #menuitem {
-    display: block;
-    margin-right: 20px;
-    font-size: 20px;
-    width: 10%;
-    color: bisque; }
-  .dropdown-menu a {
-    color: brown; }
-  .dropdown i {
-    color: bisque; }
-  #drop {
-    display: block; }
-  label {
-    font-size: 35px; }
-  h1 {
-    font-size: 25px; }
-  .sub {
-    font-size: 13px; }
-  p {
-    font-size: 15px; }
-  p::first-letter {
-    font-size: 20px; }
-  .producto {
+    header nav ul {
+      display: none; }
+    header nav #drop {
+      display: block; }
+      header nav #drop .dropdown-menu {
+        background-color: sienna; }
+        header nav #drop .dropdown-menu a {
+          color: beige; }
+      header nav #drop i {
+        color: bisque; }
+  main h1 {
+    font-size: 25px;
+    margin-top: 5px; }
+  main section .h2 {
+    font-size: 17px;
+    margin-top: 5px; }
+  main section .imx {
+    width: 80%; }
+  main .producto {
     width: 30%;
     height: 400px; }
-  .producto img {
-    width: 100%;
-    height: 180px; }
-  .imagen_footer {
-    width: 35px;
-    height: 30px; }
-  footer small {
+    main .producto .sub {
+      font-size: 13px; }
+    main .producto img {
+      width: 100%;
+      height: 180px; }
+  main section p {
     font-size: 15px; }
-  #video {
+  main section p::first-letter {
+    font-size: 20px; }
+  main #video {
     width: 100%; }
-  #formu {
+  main .gridcont {
+    display: block; }
+    main .gridcont .imf-1 {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px; }
+    main .gridcont .imf {
+      height: 180px;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+  main #formu {
     width: 100%;
     margin: 0 auto; }
-  form label {
-    font-size: 12px; }
-  .imf-1 {
+    main #formu label {
+      font-size: 12px; }
+  main .map {
     width: 100%;
-    height: 200px;
-    margin-bottom: 10px; }
-  .imf {
-    height: 180px;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 10px; }
-  .gridcont {
-    display: block; }
-  .imx {
-    width: 80%; }
-  .map {
-    width: 100%;
-    border-radius: 0%; } }
+    border-radius: 0%; }
+  footer div .imagen_footer {
+    width: 35px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: antiquewhite; }
+  footer small {
+    font-size: 12px; } }
 
 @keyframes titulo {
   from {

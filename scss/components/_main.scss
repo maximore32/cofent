@@ -1,3 +1,5 @@
+@import "../base/mixin.scss";
+@import "../base/maps.scss";
 main{
     width: 100%;
     text-align: center;
@@ -25,11 +27,13 @@ main{
             padding: 2px;
         }
 
+// aplico mixin//
 
         p{
-            font-family: 'The Nautigal', cursive;
+            
             word-spacing: 2px;
-            font-size: 30px;
+            
+            @include font (brown,'The Nautigal',30px);            
                        
         }
         p::first-letter{
@@ -60,8 +64,15 @@ main{
         input{
             display: block;
             margin: 0 auto;
-            margin-bottom: 5px;
+            margin-bottom: 5px;            
         }
+        .boton{
+            background-color: map-get($map: $boton, $key:bg-boton );
+            color: map-get($map:$boton , $key:color-boton );
+            border: map-get($map: $boton, $key:border-boton );
+        }
+
+        
         
     }
 //-------------------PRODUCTO MAIN---------------//

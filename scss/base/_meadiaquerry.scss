@@ -1,106 +1,134 @@
 @media(max-width: 858px){
-    header div{
-        width: 40%;
-    }
-    nav{
-        width: 40%;
-        display: flex;
-        justify-content: end;
-    }
-    nav ul{
-        display: none;
-    }
-    #menuitem{
-        display: block;
-        margin-right: 20px;
-        font-size: 20px;
-        width: 10%;
-        color: bisque;
+    header {
+        div{
+            width: 40%;
+            label{
+                font-size: 35px;
+            }
+        }
+        nav{
+            width: 40%;
+            display: flex;
+            justify-content: end;
+
+            ul{
+                display: none;
+
+            }
+
+            #drop{
+                display: block;
+
+                .dropdown-menu {
+                    background-color:sienna;
+                    a{
+                        color: beige;                                    
+    
+                    }
+                }
+
+                i{
+                    color:bisque;
+                }
+                
+                
+            }
+        }
     }
 
-    .dropdown-menu a{
-        color: brown;
+    main{
+        h1{
+            font-size: 25px;
+            margin-top: 5px;
+    
+        }
+
+        section{
+            .h2{
+                font-size: 17px;
+                margin-top: 5px;
+            }
+            .imx{
+                width: 80%;
+            }
+        }
+
+
+        .producto{
+            width: 30%;
+            height: 400px;
+
+            .sub{
+                font-size: 13px;
+            }
+            img{
+                width: 100%;
+                height: 180px;
+            }
+        }
+        section{
+            p{
+                font-size: 15px;
+            }
+            p::first-letter{
+                font-size: 20px;
+            }
+        }
+
+        #video{
+            width: 100%;
+        }
+
+        .gridcont{
+            display: block;
+            .imf-1{
+                width: 100%;
+                height: 200px;
+                margin-bottom: 10px;
+            }
+
+            .imf{
+                height: 180px;
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                
+            }
+            
+        }
+
+        #formu{
+            width: 100%;
+            margin: 0 auto;
+            label{
+                font-size: 12px;
+            }
+        }
+
+        .map{
+            width: 100%;
+            border-radius: 0%;
+        }
+
     }
 
-    .dropdown  i{
-        color:bisque;
-    }
+    footer{
 
-    #drop{
-        display: block;
-    }
+        div{
+            .imagen_footer{
+                width: 35px;
+                height: 30px;
+                border-radius: 100%;
+                background-color: antiquewhite;
+            }
+        }
 
-    label{
-        font-size: 35px;
-    }
-
-    h1{
-        font-size: 25px;
+        small{
+            font-size: 12px;
+        }
 
     }
-    .sub{
-        font-size: 13px;
-    }
-    p{
-        font-size: 15px;
-    }
-    p::first-letter{
-        font-size: 20px;
-    }
+    
 
-    .producto{
-        width: 30%;
-        height: 400px;
-    }
-    .producto img{
-        width: 100%;
-        height: 180px;
-    }
-    .imagen_footer{
-        width: 35px;
-        height: 30px;
-    }
 
-    footer small{
-        font-size: 15px;
-    }
-
-    #video{
-        width: 100%;
-    }
-
-    #formu{
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    form label{
-        font-size: 12px;
-    }
-
-    .imf-1{
-        width: 100%;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .imf{
-        height: 180px;
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        
-    }
-    .gridcont{
-        display: block;
-        
-    }
-
-    .imx{
-        width: 80%;
-    }
-
-    .map{
-        width: 100%;
-        border-radius: 0%;
-    }
 }

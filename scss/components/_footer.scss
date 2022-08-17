@@ -1,4 +1,5 @@
-@import "./base/variables.scss";
+@import "../base/variables.scss";
+@import "../base/extends.scss";
 footer{
     width: 100%;
     text-align: center;
@@ -9,8 +10,8 @@ footer{
     background-color: $color_principal;
     div{
         width: 100%;
-        justify-content: space-around;
-        display: flex;
+        @extend %flex;
+
         .imagen_footer{
             width: 60px;
             height: 50px;

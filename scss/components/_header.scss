@@ -26,9 +26,14 @@ header{
                 margin: 5px;
                 font-size: 20px;
                 color: lightcyan;
+                
                 a{
                     text-decoration: none;
                     color: lightcyan;
+                   
+                }
+                a:hover{
+                    color: aqua;
                 }
             }
         }
