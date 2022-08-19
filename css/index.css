@@ -39,8 +39,12 @@ header {
     padding: 5px; }
     header div label {
       font-size: 50px;
-      color: lemonchiffon;
       font-family: Georgia, 'Times New Roman', Times, serif; }
+      header div label a {
+        text-decoration: none;
+        color: bisque; }
+      header div label a:hover {
+        color: lightcyan; }
   header nav {
     width: 100%; }
     header nav ul {
