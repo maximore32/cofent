@@ -8,7 +8,7 @@ main{
     h1{
         font-size: 45px;
         color: darkred;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Rubik Maze';
         text-decoration: underline;
         animation: titulo 5s ;    
         animation-fill-mode: forwards;        
@@ -33,7 +33,7 @@ main{
             
             word-spacing: 2px;
             
-            @include font (brown,'The Nautigal',30px);            
+            @include font (brown,'Quicksand',30px);            
                        
         }
         p::first-letter{
@@ -115,6 +115,10 @@ main{
     border-radius: 100%;
 }
 
+.accordion-flush{
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
 
 }
 
